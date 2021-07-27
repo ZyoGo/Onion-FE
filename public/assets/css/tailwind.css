@@ -32500,6 +32500,26 @@ video {
   content: none;
 }
 
+.answer-button {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+  --tw-bg-opacity: 1;
+  background-color: rgba(229, 231, 235, var(--tw-bg-opacity));
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+}
+
+.answer-button-active {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+  --tw-bg-opacity: 1;
+  background-color: rgba(156, 163, 175, var(--tw-bg-opacity));
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
