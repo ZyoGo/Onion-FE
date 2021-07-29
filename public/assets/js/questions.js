@@ -3,12 +3,12 @@ const questions = [
     question: 'Apa yang di maksud dengan routing',
     answers: [
       {
-        text: 'mekanisme pengiriman paket data yang ditransmisikan dari satu network ke network yang lain.',
+        text: 'A. mekanisme pengiriman paket data yang ditransmisikan dari satu network ke network yang lain.',
         correct: true,
       },
-      { text: 'Menghubungkan router ke internet', correct: false },
-      { text: 'Menghubungkan router ke internet', correct: false },
-      { text: 'Menghubungkan router ke internet', correct: false },
+      { text: 'B. Menghubungkan router ke internet', correct: false },
+      { text: 'C. Menghubungkan Komputer ke Internet', correct: false },
+      { text: 'D. Menghubungkan satu komputer ke komputer lain', correct: false },
     ],
   },
   {
@@ -34,6 +34,10 @@ const questions = [
     answers: [
       { text: '6', correct: false },
       { text: '8', correct: true },
+      { text: '2', correct: false },
+      { text: '10', correct: true },
     ],
   },
 ];
+
+export default questions;
